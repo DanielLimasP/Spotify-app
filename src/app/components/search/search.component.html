@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="col">
+    <input
+      #searchTerm
+      type="text"
+      (keyup)="search(searchTerm.value)"
+      class="form-control"
+      placeholder="Search artist"
+    />
+  </div>
+</div>
+
+<div class="card-columns mt-5 mx-auto">
+  <div *ngFor="let artist of artists" class="card">
+    <img [src]="artist.images[0].url" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">
+        {{ artist.name }}
+      </h5>
+    </div>
+  </div>
+</div>

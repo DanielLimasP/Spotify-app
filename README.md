@@ -1,5 +1,11 @@
 # Spotiapp
 
+Go show this dude some ❤️ [Fernando Herrera](https://www.udemy.com/course/angular-2-fernando-herrera/)
+
+To run this project, you will need a spotify account and postman.
+
+Go here ➡️ [Spotify developer docs](https://developer.spotify.com/console/) to start testing!
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
 ## Development server
